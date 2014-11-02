@@ -79,7 +79,7 @@ Rails.application.configure do
 
      #Required for Heroku
      #Set this to actual host
-    config.action_mailer.default_url_options = { :host => 'http://das-pinteresting.herokuapp.com/' }
+    config.action_mailer.default_url_options = { :host => 'omr.wasdie.com' }
   end
 
   # Do not dump schema after migrations.
